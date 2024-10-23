@@ -1,0 +1,14 @@
+body {
+    color: white;
+}
+
+nav {
+    min-height: 10dvh;
+}
+
+.backgroundImg {
+    background-image: url("maplesyrup.jpg");
+    background-size: cover;
+    background-position: center;
+    min-height: 90dvh;
+}
