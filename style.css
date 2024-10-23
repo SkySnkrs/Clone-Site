@@ -1,5 +1,9 @@
 body {
     color: white;
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
 }
 
 nav {
@@ -11,4 +15,26 @@ nav {
     background-size: cover;
     background-position: center;
     min-height: 90dvh;
+}
+
+.blogImg {
+    background-image: url("treepic.jpg");
+    background-position: center;
+    min-height: 300px;
+}
+
+.officeImg {
+    background-image: url("officepic.jpg");
+    background-position: center;
+    min-height: 300px;
+}
+
+.expertiseImg {
+    background-image: url("expertisepic.jpg");
+    background-position: center;
+    min-height: 300px;
+}
+
+.sectionText {
+    font-size: 35px;
 }
