@@ -1,3 +1,7 @@
+:root {
+    --page-bg: #94867b;
+}
+
 body {
     color: white;
     font-family: "Playfair Display", serif;
@@ -21,20 +25,53 @@ nav {
     background-image: url("treepic.jpg");
     background-position: center;
     min-height: 300px;
+    text-shadow: 0px, 0px, 5px, black;
 }
 
 .officeImg {
     background-image: url("officepic.jpg");
     background-position: center;
     min-height: 300px;
+    text-shadow: 0px, 0px, 5px, black;
 }
 
 .expertiseImg {
     background-image: url("expertisepic.jpg");
     background-position: center;
     min-height: 300px;
+    text-shadow: 0px, 0px, 5px, black;
 }
 
 .sectionText {
     font-size: 35px;
+}
+
+.websiteLogo {
+    max-height: 75px;
+    max-width: 100%;
+}
+
+#sectionColor {
+    background-color: var(--page-bg);
+}
+
+#headerColor {
+    background-color: var(--page-bg);
+}
+
+#buttonColor {
+    background-color: var(--page-bg);
+    border-color: var(--page-bg)
+}
+
+#navBar {
+    justify-content: flex-end !important;
+}
+
+@media (min-width: 992px) {
+    .navbar-expand-lg .navbar-collapse {
+        display: flex !important;
+        flex-basis: auto;
+        justify-content: flex-end;
+    }
 }
